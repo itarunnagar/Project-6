@@ -4,11 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- Title of the Web Page -->
     <title>Real State</title>
 
     <!-- Fav Icon of the Web Page -->
-    <link rel="shortcut icon" href="./Icons/Logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./Icons/Logo.svg" type="image/x-icon" />
 
     <!-- Adding the font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,6 +34,11 @@
     <!-- Header Section Start -->
     <header>
       <nav class="navigation">
+        <!-- Menu Bar -->
+        <div class="menuBar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
         <!-- Logo Section -->
         <div class="logo"><img src="./Icons/Logo.svg" /></div>
 
@@ -203,7 +217,7 @@
       <!-- Here 7 to 9 Property Cards Details -->
       <section class="propertyCards">
         <!-- Details of 7th Cards -->
-        <div class="property property78th">
+        <div class="property property7">
           <!-- Image of 7th Cards -->
           <img src="./Photos/cardImage7.png" />
 
@@ -222,11 +236,11 @@
 
         <!-- Details of 8th Cards -->
         <div class="property property8">
-          <!-- Image of 8th Cards -->
-          <img src="./Photos/cardImage8.png" />
+          <!-- Image of 7th Cards -->
+          <img src="./Photos/cardImage4.png" />
 
           <!-- Sub Heading or Description of House -->
-          <div class="box1">
+          <div class="box1 box2">
             <!-- Box Heading -->
             <h1 class="boxHeading">
               Mixtownia<br />
@@ -240,7 +254,7 @@
 
         <!-- Details of 9th Cards -->
         <div class="property property9">
-          <!-- Image of 9th Cards -->
+          <!-- Image of 7th Cards -->
           <img src="./Photos/cardImage9.png" />
 
           <!-- Sub Heading or Description of House -->
@@ -271,7 +285,7 @@
       </div>
 
       <!-- Right Side -->
-      <div>
+      <div class="rightSideFeature">
         <!-- Feature Heading -->
         <h1 class="featureHeading">
           Modern, Trendy,<br />
@@ -391,5 +405,8 @@
         <li>Company</li>
       </ul>
     </footer>
+
+    <!-- JS Script File -->
+    <script src="./script.js"></script>
   </body>
 </html>
